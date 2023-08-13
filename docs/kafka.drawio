@@ -1,0 +1,140 @@
+<mxfile host="app.diagrams.net" modified="2023-08-05T17:05:36.736Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="fxrCYyY83bdBfIBzWxec" version="21.6.6" type="device">
+  <diagram name="Página-1" id="hRIeOXQi5uZrhqaC2COm">
+    <mxGraphModel dx="1050" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b8Hay4lkLXEPZDCYRHte-2" target="b8Hay4lkLXEPZDCYRHte-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="b8Hay4lkLXEPZDCYRHte-2" target="b8Hay4lkLXEPZDCYRHte-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-2" value="DOCKER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b8Hay4lkLXEPZDCYRHte-3" target="b8Hay4lkLXEPZDCYRHte-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-3" value="ZOOKEEPER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b8Hay4lkLXEPZDCYRHte-5" target="b8Hay4lkLXEPZDCYRHte-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-5" value="KAFKA BROKER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="80" width="360" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b8Hay4lkLXEPZDCYRHte-10" target="b8Hay4lkLXEPZDCYRHte-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-10" value="PYTHON - PRODUCER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="110" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="b8Hay4lkLXEPZDCYRHte-13" target="b8Hay4lkLXEPZDCYRHte-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-13" value="PYTHON - CONSUMER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="280" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-15" value="SINGLE NODE CLUSTER KAFKA - IT WORKS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="20" y="15" width="450" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-17" value="DAG KAFKA" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b8Hay4lkLXEPZDCYRHte-18" target="b8Hay4lkLXEPZDCYRHte-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-18" value="DOCKER COMPOSE UP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="525" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-19" value="CHECK - IT&#39;S UP?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-27" value="PRODUCER JOBS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="985" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-28" value="PRODUCER JOBS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1025" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-29" value="PRODUCER JOBS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1065" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-30" value="PRODUCER JOBS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1105" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="975" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-32" value="DAG 1 - START" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="490" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-33" value="DAG 3 - PRODUCER" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="960" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b8Hay4lkLXEPZDCYRHte-34" target="b8Hay4lkLXEPZDCYRHte-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-34" value="CHECK - IT&#39;S UP?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-36" value="DAG 4 - CONSUMER" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1240" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-43" value="CONSUMER JOBS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1260" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-44" value="CONSUMER&amp;nbsp;&amp;nbsp;JOBS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1300" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-45" value="CONSUMER&amp;nbsp;&amp;nbsp;JOBS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1340" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-46" value="CONSUMER&amp;nbsp;&amp;nbsp;JOBS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1380" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b8Hay4lkLXEPZDCYRHte-47" target="b8Hay4lkLXEPZDCYRHte-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-47" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1250" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b8Hay4lkLXEPZDCYRHte-49" target="b8Hay4lkLXEPZDCYRHte-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-49" value="CHECK - IT&#39;S UP?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1305" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-50" value="PERSIST DATA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1305" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-52" value="Start e mantém ligado o container" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="440" y="525" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b8Hay4lkLXEPZDCYRHte-54" target="b8Hay4lkLXEPZDCYRHte-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-54" value="DOCKER COMPOSE UP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="715" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-55" value="CHECK - IT&#39;S UP?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="715" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-56" value="DAG 2 - START" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="680" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b8Hay4lkLXEPZDCYRHte-57" value="Start e mantém ligado o container" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="450" y="715" width="260" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
